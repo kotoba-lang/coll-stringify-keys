@@ -2,9 +2,9 @@
  :deps {
         io.github.kotoba-lang/coll-postwalk
         {:git/url "https://github.com/kotoba-lang/coll-postwalk.git"
-         :git/sha "f411a03b09cef16a70ef425fbf1177df0e2f860a"}}
+         :git/sha "891379081438b73e3437003e3bc915494eed92bd"}}
  :aliases
  {:test {:extra-paths ["test"]
          :extra-deps {io.github.cognitect-labs/test-runner
-                      {:git/tag "v0.5.1" :git/sha "dfb30dd6605cb6c0efc275e1df1736f6e90d4d73"}}
+                      {:git/tag "v0.5.1" :git/sha "dfb30dd"}}
          :main-opts ["-m" "cognitect.test-runner"]}}}
